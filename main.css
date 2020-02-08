@@ -1,0 +1,22 @@
+body
+{
+    background:rgb(62, 64, 70); 
+    font-family: 'Times New Roman';
+
+}
+a
+{
+    color: rgb(17, 7, 156);
+}
+
+h1
+{
+ color: rgb(230, 224, 224);
+}
+
+p1,p2,p3
+{
+ color: burlywood;
+ 
+}
+
