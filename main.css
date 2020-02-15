@@ -1,13 +1,13 @@
 body
 {
     margin:0;
-    background:rgb(62, 64, 70); 
-    font-family: 'Times New Roman';
-
+    background:rgb(255, 255, 255); 
+    font-family: 'Poppins', sans-serif;
+    flex : 1;
 }
 a
 {
-    color: rgb(17, 7, 156);
+    color: #585772(17, 7, 156);
 }
 
 h1
@@ -17,7 +17,7 @@ h1
 
 p1,p2,p3
 {
- color: burlywood;
+ color: #585772;
  
 }
 
@@ -50,5 +50,15 @@ nav ul li a
 
 }
 
+#Goals
+{
+text-align: auto;
+background: white;
+  color:#585772;
+}
 
+#myname
+{
+ color: black;
+}
 
