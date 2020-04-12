@@ -1,2 +1,5 @@
 # Pwebsite
-Learning HTML CSS and Javascript. Creating my personal website. 
+Personal Website 
+---Coded with HTML/CSS/JAVASCRIPT------
+Decided to use Bulma CSS framework
+
