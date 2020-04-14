@@ -19,14 +19,17 @@ document.addEventListener("DOMContentLoaded",()=>
    {
        console.log("clicked About");
    })
+   
    let experience = document.querySelector(".Experience").addEventListener("click",()=>
    {
        console.log("clicked Experiernce");
    })
+
    let contact = document.querySelector(".Contact").addEventListener("click",()=>
    {
        console.log("clicked Contact");
    })
+
    let Education = document.querySelector(".Education").addEventListener("click",()=>
    {
        console.log("clicked Education");
