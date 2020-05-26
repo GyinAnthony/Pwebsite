@@ -9,6 +9,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
+      
+     
   <!-- Header -->
   <section class = "hero is-fullheight is-primary is-bold">
       <nav class = "navbar is-white has-background-white is-fixed-top" role = "navigation" aria-label = "main navigation">
@@ -80,10 +82,12 @@
                     <div class="media">
                         <div class="media-content">
                             <p class="title is-4">
-                                Content
+                                Projects
                             </p>
                             <div class="content">
-                                Hello this is content
+                                My solo projects I build over the years. More detail below. Github ->
+                                <a href="">Here</a>
+
                             </div>
                         </div>
                     </div>
@@ -99,10 +103,11 @@
                     <div class="media">
                         <div class="media-content">
                             <p class="title is-4">
-                                Content
+                                TedxKU
                             </p>
                             <div class="content">
-                                Hello this is content
+                                I am the current treasurer of TedxKU at the University of Kansas 
+                                <a href="">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -119,10 +124,11 @@
                     <div class="media">
                         <div class="media-content">
                             <p class="title is-4">
-                                Content
+                                Austria Abroad
                             </p>
                             <div class="content">
-                                Hello this is content
+                                Worked Under Dr.Stein for Weather Analysis 
+                                thru Python Javascript PHP and Node.JS 
                             </div>
                         </div>
                     </div>
@@ -226,6 +232,7 @@
 <!--Lets add Contact Form-->
 <section class="section containerforform ">    
     <div id = "containerforform">   
+            <form class ="Contactform" action = "contact.php">
         <div class = "columns">
             <div class = "column is-half">
                 <div class = "title is-1 ">
@@ -236,12 +243,11 @@
                     <div class = "field">
                         <label class = "label namepart">Name</label>
                         <div class = "control">
-                          <input class ="input" type="text" placeholder = "e.g John Doe"
-                            
+                          <input class ="input name" type="text" placeholder = "e.g John Doe" name = "name"> 
                         <div class="field emailpart">
                             <label class="label">Email</label>
                             <div class="control has-icons-left has-icons-right">
-                             <input class="input " type="email" placeholder="Email input" value="name@">
+                             <input class="input email" type="email" placeholder="Email input" value="name@" name = "email">
                              <span class="icon is-small is-left">
                                 <i class="fas fa-envelope"></i>
                              </span>
@@ -252,9 +258,14 @@
                      </div>
                         <div class ="Messagepart">
                      <label class = "label">Message</label>
-                        <textarea class="textarea" placeholder="e.g. Description"></textarea>
+                        <textarea class="textarea" placeholder="e.g. Description" name = "msg"></textarea>
+                    </div>
+                    <div>
+                        <br>
+                        <button class= "button is-sucess "> Submit </button>
                     </div>
                 </div>
+            </form>
         </div>
     </div>
 </section>
@@ -269,6 +280,8 @@
   </body>
   <script src="functions.js"></script>
 </html>
+
+
 
 
 
