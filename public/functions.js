@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded",()=>
     
     card1.addEventListener('click', ()=>
     {
-        window.open("https://gyinanthony.github.io/Goanthony.github.io/");
+        
     })
 
 
